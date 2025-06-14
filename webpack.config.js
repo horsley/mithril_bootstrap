@@ -24,7 +24,7 @@ export default {
         filename: '[name].[contenthash].js',
         clean: true
     },
-    modules: {
+    module: {
         rules: [
             {
                 test: /\.css$/,
@@ -44,7 +44,7 @@ export default {
             //assets
             {
                 test: /\.(png|svg|jpg|jpeg|gif)$/i,
-                type: 'asset',
+                type: 'asset/resource',
             }
         ]
     },
