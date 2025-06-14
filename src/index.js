@@ -1,3 +1,4 @@
+import m from "mithril";
 import logo from './img/logo.jpg'
 
 function Index() {
